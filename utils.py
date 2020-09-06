@@ -61,3 +61,15 @@ def multiprocessing(func, args,
     with ProcessPoolExecutor(workers) as ex:
         res = ex.map(func, args)
     return list(res)
+
+
+def create_unique_list_of_lists(data):
+    mydict = {}
+    try:
+        for row in data:
+            mydict["".join([row[0], row[1], row[2]])] = row
+    except TypeError:
+        print('we have a Type error')
+        print(row)
+
+    return list(mydict.values())

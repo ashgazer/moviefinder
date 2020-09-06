@@ -5,7 +5,7 @@ import itertools
 
 from justwatch_util import JWQueryTool
 from tmdb import TMDBQueryTool
-from utils import config, create_csv, multithreading
+from utils import config, create_csv, multithreading, create_unique_list_of_lists
 
 # Setup config as constant
 CONFIG = config()
@@ -25,5 +25,7 @@ if __name__ == '__main__':
 
     # removes duplicates
     movies = [film_l for film_l, _ in itertools.groupby(sorted(FILM_LIST))]
+    # movies = create_unique_list_of_lists(FILM_LIST)
 
-    create_csv(csv_header, movies, CONFIG['csvfilename'])
+    create_csv(csv_header, sorted(movies), CONFIG['csvfilename'])
+

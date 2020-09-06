@@ -80,13 +80,17 @@ directors:
     - Hirokazu Kore-eda
     - Steven Soderbergh
     - Wim Wenders
+    - Abderrahmane Sissako
+    - Céline Sciamma
+    - Roy Andersson
 providers:
       - nfx
       - mbi
-      - amz
+      - amp
 #      - al4 # removing all 4 as it gives false positives
       - bbc
       - itv
       - dnp
+#      - bfi
 #      - ntv # Now tv
 

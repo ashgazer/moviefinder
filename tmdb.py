@@ -5,7 +5,7 @@ TMDB Helper module. To help making calls to tmdb module easier.
 import tmdbsimple as tmdb
 
 # todo movie this to config file
-tmdb.API_KEY = ""
+tmdb.API_KEY = "220de2741f23068f85aaaf6106bb3c91"
 
 
 class DirectorNotFound(Exception):

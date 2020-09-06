@@ -23,6 +23,7 @@ class JWQueryTool:
     def get_titles(self, query):
         provider_to_id = self.create_provider_id_lookup('short_name')
         provider_lookup = self.create_provider_id_lookup('technical_name')
+        provider_lookup[204] = 'amazonbfi' # code 204 is not returned by api
         titles = []
         rs = self.just_watch.search_for_item(monetization_types=['flatrate'],
                                              query=query, content_types=['movie'], providers=self.config['providers'])
