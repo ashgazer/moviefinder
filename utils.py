@@ -3,6 +3,7 @@ Module to hold useful utils.
 """
 import csv
 import os
+from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 
 import yaml
 
@@ -45,3 +46,18 @@ def create_csv(header: str, data: list, filename="movies.csv"):
         for row in data:
             # print(row)
             moviewriter.writerow(row)
+
+
+def multithreading(func, args,
+                   workers):
+    with ThreadPoolExecutor(workers) as ex:
+        res = ex.map(func, args)
+
+    return list(res)
+
+
+def multiprocessing(func, args,
+                    workers):
+    with ProcessPoolExecutor(workers) as ex:
+        res = ex.map(func, args)
+    return list(res)
