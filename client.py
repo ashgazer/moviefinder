@@ -21,9 +21,9 @@ def create_film_list(director):
 
 if __name__ == '__main__':
     csv_header = "Director,Title,Platform,IMDB,TMDB,URL"
-    multithreading(create_film_list, CONFIG['directors'], 8)
+    multithreading(create_film_list, CONFIG['directors'], CONFIG['noOfThreads'])
 
     # removes duplicates
     movies = [film_l for film_l, _ in itertools.groupby(sorted(FILM_LIST))]
 
-    create_csv(csv_header, movies, "movies.csv")
+    create_csv(csv_header, movies, CONFIG['csvfilename'])

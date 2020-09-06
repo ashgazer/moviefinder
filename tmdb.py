@@ -4,6 +4,7 @@ TMDB Helper module. To help making calls to tmdb module easier.
 
 import tmdbsimple as tmdb
 
+# todo movie this to config file
 tmdb.API_KEY = ""
 
 

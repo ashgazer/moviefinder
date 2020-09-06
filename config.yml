@@ -1,4 +1,6 @@
 ---
+csvfilename: movies.csv
+noOfThreads: 8
 directors:
     - Wong Kar-wai
     - Ki-duk Kim
