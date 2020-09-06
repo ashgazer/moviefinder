@@ -4,15 +4,15 @@ TMDB Helper module. To help making calls to tmdb module easier.
 
 import tmdbsimple as tmdb
 
-tmdb.API_KEY = ""
+tmdb.API_KEY = "220de2741f23068f85aaaf6106bb3c91"
 
 
 class DirectorNotFound(Exception):
-    def __init__(self, *args, **kwargs):  # real signature unknown
+    def __init__(self, *args, **kwargs):
         pass
 
-    @staticmethod  # known case of __new__
-    def __new__(*args, **kwargs):  # real signature unknown
+    @staticmethod
+    def __new__(*args, **kwargs):
         """ Create and return a new object.  See help(type) for accurate signature. """
         pass
 
