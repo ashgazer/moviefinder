@@ -4,7 +4,7 @@ TMDB Helper module. To help making calls to tmdb module easier.
 
 import tmdbsimple as tmdb
 
-tmdb.API_KEY = "220de2741f23068f85aaaf6106bb3c91"
+tmdb.API_KEY = ""
 
 
 class DirectorNotFound(Exception):
