@@ -1,0 +1,90 @@
+---
+directors:
+    - Wong Kar-wai
+    - Ki-duk Kim
+    - Kim Ki-duk
+    - Aki Kaurismäki
+    - Terrence Malick
+    - Abbas Kiarostami
+    - Pedro Almodovar
+    - Andrei Tarkovsky
+    - Federico Fellini
+    - Apichatpong Weerasethakul
+    - paolo sorrentino
+    - Yimou Zhang
+    - Jafar Panahi
+    - Mohsen Makhmalbaf
+    - Solmaz Panahi
+    - Asghar Farhadi
+    - Alfonso Cuarón
+    - Chan-wook Park
+    - Takeshi Kitano
+    - Darren Aronofsky
+    - Kim Jee-woon
+    - Asif Kapadia
+    - David Fincher
+    - Takashi Miike
+    - Pawel Pawlikowski
+    - Richard Linklater
+    - Wes Anderson
+    - Ang Lee
+    - Michael Haneke
+    - Paul Thomas Anderson
+    - Michael Winterbottom
+    - Guillermo del Toro
+    - Sebastián Lelio
+    - Ciro Guerra
+    - Damián Szifron
+    - Joshua Marston
+    - Walter Salles
+    - Alejandro González Iñárritu
+    - Juan José Campanella
+    - Fabián Bielinsky
+    - J.A. Bayona
+    - Jaume Balagueró
+    - Gerardo Naranjo
+    - Cary Joji Fukunaga
+    - Werner Herzog
+    - Noah Baumbach
+    - Ken Loach
+    - Fatih Akin
+    - Michel Gondry
+    - Nuri Bilge Ceylan
+    - Hirokazu Koreeda
+    - Alex Gibney
+    - Jia Zhangke
+    - Wes Anderson
+    - Errol Morris
+    - Denis Villeneuve
+    - Claire Denis
+    - Lynne Ramsay
+    - Kiyoshi Kurosawa
+    - Akira Kurosawa
+    - Ingmar Bergman
+    - François Truffaut
+    - Zhangke Jia
+    - Yasujirô Ozu
+    - Satyajit Ray
+    - Kenji Mizoguchi
+    - Edward Yang
+    - Hou Hsiao-Hsien
+    - Bong Joon Ho
+    - Lee Chang-dong
+    - Vittorio de Sica
+    - Yorgos Lanthimos
+    - Jacques Audiard
+    - Andrey Zvyagintsev
+    - Ruben Östlund
+    - Hirokazu Kore-eda
+    - Steven Soderbergh
+    - Wim Wenders
+providers:
+      - nfx
+      - mbi
+      - amz
+#      - al4 # removing all 4 as it gives false positives
+      - bbc
+      - itv
+      - dnp
+#      - ntv # Now tv
+
