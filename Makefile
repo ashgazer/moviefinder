@@ -1,11 +1,15 @@
 
-
+enviro:
+	source ./venv/bin/activate
 
 setup:
 	python -m venv venv
 
-requirements:
+install: setup enviro
 	pip install -r requirements.txt
 
 test:
-	pytest ./tests
+	pytest
+
+clean:
+	rm -r venv
